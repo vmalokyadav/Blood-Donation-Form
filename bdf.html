@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Form</title>
+    <link rel="stylesheet" href="bdf.css">
+    <script src="bdf.js"></script>
+</head>
+<body>
+<div class="container">
+    <form onsubmit="return validation()">
+        <h1>User Record List</h1> 
+<div class="from-group">
+    <label>username</label><br>
+    <input type="text" placeholder="Enter your username"required name=" "id="username">
+    <span id="usererror" class="text-danger font-weight-bold" ></span><br><br>
+</div>
+<div>
+    <label>Email address</label><br>
+    <input type="text" placeholder="your_@gmail.com"required name="" id="email"><span id="emailerror" class="text-danger font-weight-bold" ></span><br><br> 
+</div>
+<div>
+    <label>Select your blood group</label><br>
+     <select> 
+         <option>+A</option>
+         <option>-A</option>
+         <option>+B</option>
+         <option>-B</option>
+         <option>+AB</option>
+         <option>-Ab</option>
+         <option>+O</option>
+         <option>-O</option>
+         
+     </select><span id="grouperror" class="text-danger font-weight-bold" ></span><br><br>
+</div>
+<div>
+    <label>Enter your address</label><br>
+     <input type="text" placeholder="address "required name=" " id="address"><span id="addresserror" class="text-danger font-weight-bold" ></span><br><br>
+</div>
+<div>
+    <label>Enter your phone number</label><br>
+    <input type="text" name=""placeholder="+91"required id="phonenumber" ><span id="mobileerror" class="text-danger font-weight-bold" ></span></span><br><br>
+</div>
+<div>
+    <label>Any other details regarding your medical health</label> 
+    <textarea rows="6" cols="175%"></textarea width=""><br><br>
+</div>
+    
+</textarea>
+<input type="submit">
+
+    </form>
+</input<br>
+    
+</br>
+</html>
